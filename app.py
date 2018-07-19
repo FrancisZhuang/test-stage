@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hey type something"
+    return "what the heck? always failed."
 
 
 @app.route('/<name>')
